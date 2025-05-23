@@ -50,11 +50,11 @@
 </head>
 <body>
   <div id="message">
-    <p><strong>Panic.</strong></p>
-    <p>You have been <span style="color: red;">compromised</span> </p>
+    <p><strong>Dont panic</strong></p>
+    <p>You have been <span style="color: red;">compromised😈</span> </p>
     <p>Your IP address is:</p>
     <p class="ip" id="ip"></p>
-    <p>THis isnt all we have dm the person who sent you the link for more info..</p>
+    <p>This isnt all we have dm the person who sent you the link for more info..</p>
   </div>
 
   <script>
@@ -64,7 +64,7 @@
         document.getElementById("ip").textContent = data.ip;
       })
       .catch(() => {
-        document.getElementById("ip").textContent = "Unavailable";
+        document.getElementById("ip").textContent = "Vpn detected";
       });
   </script>
 </body>
